@@ -1,0 +1,115 @@
+body{
+    background-color: darkslategray;
+    margin: 0;
+   
+}
+.topnav {
+    padding: 100px;
+    background-image: url('cover.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+.topnav h1{
+    text-align: center;
+    position:inherit;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+    padding: 20px;
+    font-size: xxx-large;
+    
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(99, 95, 95,0.5);
+  
+}
+li{
+    float:right;
+}
+li a {
+    display: block;
+    color: turquoise;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(105, 90, 90);
+  }
+.container{
+
+    color:brown;
+    text-decoration: underline;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    /* background-color: antiquewhite; */
+    /* border: 5px solid lightgray; */
+    margin: auto;
+    background-image: url('homebg3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container h3{
+    padding: 20px;
+}
+.container img{
+    padding: 10px;
+    width: 550px;
+    height:400px;
+}
+.container a{
+    color: sienna;
+}
+.class1{
+    float: left;
+    margin-left: 20px;
+    }
+.class1 a{
+        text-align: center;
+        text-decoration: underline;
+    }
+.class2{
+    float:right;
+    margin-right: 20px;
+}
+.class2 a {
+    text-align: center;
+    text-decoration: underline;
+}
+.class4 img{
+    width: 400px;
+    height: 500px;
+}
+footer{
+    margin-left: 20px;
+}
+.navbar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.navbar a {
+    float: left;
+   
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+    opacity: 0.5;
+  }
